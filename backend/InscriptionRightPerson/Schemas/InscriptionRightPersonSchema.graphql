@@ -1,0 +1,113 @@
+type Person {
+  FirstName: String
+  LastName: String
+  PhoneNumber: String
+  LinkedIn: String
+  Image: String
+  Address: String
+  Country: String
+  City: String
+  Website: String
+  TargetTitle: String
+  ProfessionalSummary: String
+  Experiences: [Experience]
+  Educations: [Education]
+  Certifications: [Certification]
+  Skills: [String]
+  Languages: [Language]
+  InterestsAndHobbies: [String]
+}
+
+type Experience {
+  CompanyName: String
+  Position: String
+  Location: String
+  Type: String
+  StartDate: Date
+  EndDate: Date
+  CompanyDescription: String
+}
+
+type Education {
+  InstitutionName: String
+  FieldOfStudy: String
+  Location: String
+  Type: String
+  StartDate: Date
+  EndDate: Date
+}
+
+type Certification {
+  CertificationName: String
+  Organization: String
+  DateOfCompletion: Date
+}
+
+type Language {
+  langage: String
+  Level: String
+}
+
+type Query {
+  person(ID: ID!): Person
+  personsByFirstName(firstName: String!): [Person]
+  personsByLastName(lastName: String!): [Person]
+  personsByLinkedIn(linkedIn: String!): [Person]
+  # You can add more query fields based on your requirements
+}
+
+type Mutation {
+  createPerson(input: PersonInput!): Person
+}
+
+input PersonInput {
+  FirstName: String
+  LastName: String
+  PhoneNumber: String
+  LinkedIn: String
+  Image: String
+  Address: String
+  Country: String
+  City: String
+  Website: String
+  TargetTitle: String
+  ProfessionalSummary: String
+  Experiences: [ExperienceInput]
+  Educations: [EducationInput]
+  Certifications: [CertificationInput]
+  Skills: [String]
+  Languages: [LanguageInput]
+  InterestsAndHobbies: [String]
+}
+
+input ExperienceInput {
+  CompanyName: String
+  Position: String
+  Location: String
+  Type: String
+  StartDate: Date
+  EndDate: Date
+  CompanyDescription: String
+}
+
+input EducationInput {
+  InstitutionName: String
+  FieldOfStudy: String
+  Location: String
+  Type: String
+  StartDate: Date
+  EndDate: Date
+}
+
+input CertificationInput {
+  CertificationName: String
+  Organization: String
+  DateOfCompletion: Date
+}
+
+input LanguageInput {
+  langage: String
+  Level: String
+}
+
+scalar Date

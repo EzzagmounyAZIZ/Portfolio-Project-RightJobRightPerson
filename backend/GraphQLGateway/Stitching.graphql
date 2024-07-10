@@ -1,0 +1,4 @@
+extend schema @link(url: "http://localhost:18826/graphql", name: "InscriptionRightJob")
+extend schema @link(url: "http://localhost:5231/graphql", name: "InscriptionRightPerson")
+extend schema @link(url: "http://localhost:<RightJobOffersPort>/graphql", name: "RightJobOffers")
+extend schema @link(url: "http://localhost:<RightPersonSearchOffersPort>/graphql", name: "RightPersonSearchOffers")

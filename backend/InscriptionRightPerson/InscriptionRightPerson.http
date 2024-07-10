@@ -1,0 +1,6 @@
+@InscriptionRightPerson_HostAddress = http://localhost:5063
+
+GET {{InscriptionRightPerson_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

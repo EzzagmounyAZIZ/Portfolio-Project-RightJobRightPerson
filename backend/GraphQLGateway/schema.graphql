@@ -1,0 +1,37 @@
+type Mutation {
+  createPerson(input: PersonInput!): Person
+}
+
+input PersonInput {
+  firstName: String!
+  lastName: String!
+  mailAddress: String!
+  phoneNumber: String!
+  linkedIn: String
+  image: String
+  address: String
+  country: String
+  city: String
+  website: String
+  targetTitle: String
+  professionalSummary: String
+  password: String!
+  lastConnection: String
+}
+
+type Person {
+  firstName: String!
+  lastName: String!
+  mailAddress: String!
+  phoneNumber: String!
+  linkedIn: String
+  image: String
+  address: String
+  country: String
+  city: String
+  website: String
+  targetTitle: String
+  professionalSummary: String
+  password: String!
+  lastConnection: String
+}

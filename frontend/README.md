@@ -27,4 +27,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-![75% of people who change jobs use LinkedIn to inform this decision_ Contact us for assistance_](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/d080f50e-ce69-4286-a273-a60530942758)
+# 📷 Screenshots
+
+## page Inscription
+![alxinscriptionemployee](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/f5e0232a-0b08-414b-a412-8615ec4dc051)
+
+## page to serch job 
+
+![alxserchofferjob](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/e9f4f54a-0a02-4332-8858-36bf21bf2706)
+
+# page to add offers
+
+![addnewoffer](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/fc4f97f7-0694-4ec2-9395-62d2f00ba074)
+
+
+![addnewoffer1](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/9b071445-2ff9-4c17-9e84-5546c177346f)
+
+
+![addnewoffer3](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/1ba0f211-225c-476c-b136-f07ec06e4c8e)
+
+
+

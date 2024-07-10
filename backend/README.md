@@ -37,3 +37,16 @@ The backend of RightJobRightPerson is built with .NET Core and follows a microse
 | Tool      | Version |
 |-----------|---------|
 | .NET Core SDK | >= 3.1 |
+
+
+
+# 📷 Screenshots
+
+## GateWay API
+
+![graph2](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/28bb80e2-0b23-4776-907a-98f47301d7fc)
+
+## Inscription Right Person Server
+
+![qraph1](https://github.com/EzzagmounyAZIZ/Portfolio-Project-RightJobRightPerson/assets/138947812/ba069799-4189-46d2-bc8a-6ebe773340c3)
+
